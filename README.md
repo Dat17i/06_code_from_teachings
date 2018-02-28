@@ -1,4 +1,4 @@
-# 06_code_from_teachings
+# 06 Code from teachings
 
 ## Connecting db and spring
 
