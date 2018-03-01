@@ -11,9 +11,15 @@ public class UserController {
     public String index() {
 
         UserRepository ur = new UserRepository();
+        System.out.println(ur.readAll());
+        return "index";
+    }
 
-        System.out.println();
+    @GetMapping("/create")
+    public String create(){
 
+        UserRepository ur = new UserRepository();
+        ur.create(new Person());
         return "index";
     }
 }

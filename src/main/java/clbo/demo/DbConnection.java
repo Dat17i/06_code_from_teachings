@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class DbConnection {
 
-    private final static String USERNAME = "sprindbclbo";
+    private final static String USERNAME = "springdbclbo";
     private final static String PASSWORD = "Rk04?!6UM9bB";
-    private final static String CONNSTRING = "jdbc:mysql://den1.mysql6.gear.host/springdbclbo";
+    private final static String CONNSTRING = "jdbc:mysql://den1.mysql6.gear.host/springdbclbo?useSSL=false";
 
     public static Connection getConnection() {
 
